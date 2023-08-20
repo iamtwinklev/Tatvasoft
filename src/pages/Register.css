@@ -1,0 +1,50 @@
+.search{
+    display: flex;
+    justify-content: center;
+    height: 90px;
+    background-color:  rgb(243 243 243);
+}
+.searchBox{
+    height: 45px;
+    width: 422px;
+    padding-left: 20px;
+    margin-top: 20px;
+
+}
+.search button{
+    margin-top: 20px;
+    height: 45px;
+    margin-left: 12px;
+}
+.home{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.loginHeading{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-bottom: 25px;
+}
+.container{
+    margin-left: 15%;
+}
+.last, .cpass{
+    margin-left: 150px;
+    width: 44%;
+}
+.names{
+    display: flex;
+    /* justify-content: space-between; */
+}
+.pass{
+    display: flex;
+    margin-bottom: 60px;
+}
+.registerBtn{
+    width: 136px;
+    height: 45px;
+}

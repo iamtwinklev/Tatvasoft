@@ -1,0 +1,130 @@
+.title-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* margin: 12px 0 24px 0; */
+}
+/* .MuiTypography-h2{
+  padding: 0;
+  margin: 0;
+}
+.MuiFormControl-root{
+  max-width: 270px;
+  flex: 0 0 270px;
+  margin-left: auto;
+  display: flex;
+  flex-direction: inherit;
+  align-items: center;
+  justify-content: flex-end;
+}
+.MuiSelect-selectMenu{
+  height: 40px;
+  line-height: 40px;
+  min-width: 200px;
+}
+.MuiInputLabel-formControl{
+  margin: 0 10px 0 0;
+} */
+
+.product-list-inner {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.product-list-wrapper {
+  margin-top: 30px;
+  padding: 42px 0 80px;
+}
+
+.product-list-inner-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px -30px;
+}
+
+.product-list {
+  max-width: 25%;
+  flex: 0 0 25%;
+  padding: 0 15px;
+  margin-bottom: 30px;
+}
+
+.image {
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.product-list-inner em {
+  display: block;
+  position: relative;
+  padding-bottom: 82.8%;
+  border-radius: 10px 10px 0 0;
+}
+
+.product-list-inner img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-radius: 10px 10px 0 0;
+  object-fit: cover;
+}
+
+.content-wrapper {
+  padding: 20px 15px;
+}
+
+h3 {
+  font-size: 26px;
+  margin-bottom: 2px;
+  font-weight: 700;
+  line-height: 1;
+  height: 27px;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.category{
+  display: block;
+  margin-bottom: 10px;
+  color:black;
+  font-weight: 400;
+}
+.description{
+  font-size: 16px;
+  height: 40px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.price{
+  margin: 20px 0;
+  font-size: 18px;
+  font-weight: 700;
+}
+.discount-price{
+  display: block;
+  color: red;
+  font-weight: 400;
+  font-size: 16px;
+}
+.discount-percentage{
+  color: green;
+  font-weight: 600;
+}
+.pink-btn{
+  height: 40px;
+  line-height: 40px;
+  font-size: 16px;
+  padding: 0 20px;
+  width: 100%;
+  border-radius: 6px;
+}

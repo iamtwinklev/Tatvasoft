@@ -1,0 +1,1 @@
+export const addicon = require('./32937640_n8vt_2osk_220829.jpg');
